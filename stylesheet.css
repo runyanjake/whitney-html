@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Momcake';
+    src: url('fonts/Momcake-Bold.woff2') format('woff2'),
+        url('fonts/Momcake-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aquire';
+    src: url('fonts/AquireBold.woff2') format('woff2'),
+        url('fonts/AquireBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
