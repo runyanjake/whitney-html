@@ -1,22 +1,47 @@
-<head>
-	<link href="resources/css/stylesheet.css" rel="stylesheet">
-	<script type="text/javascript" src="tagline.js"></script>
-</head>
 <html>
-	<header><title>Whitney Root</title></header>
-	<body onload="tagline()">
-		<h1 style="font-family:'Momcake'; font-weight:bold; font-style:normal; font-size:72px;">Whitney.rip</h1>
-        <h5 style="font-family:'Aquire'; font-weight:bold; font-style:normal;">Powered by PWS &trade;</h5>
-        </br>
-        <h4>
-            <a id="tagline" href="http://www.whitney.rip""> Performance Lives Here.</a>
-        </h4>
-        </br>
-		<a href="http://www.admin.whitney.rip">Admin</a>
-		<a href="http://www.grafana.whitney.rip">Grafana</a>
-		<a href="http://www.covid.whitney.rip">Covid Tracker</a>
-        <a href="http://www.node.whitney.rip">Node</a> 
-        </br>
-        <input type="button" value="Reroll MOTD" onclick="randomTagline();">
+    <head>
+    	<link href="resources/css/stylesheet.css" rel="stylesheet">
+        <script type="text/javascript" src="tagline.js"></script>
+        <title>Whitney - Powered by PWS &trade;</title>
+    </head>
+    <body onload="tagline()">
+        <div class="header"> 
+            <div class="center">
+                <div class="leftjustified">
+                    <button class=navButton>
+                        <a href="http://www.admin.whitney.rip">Admin</a>
+                    </button>
+                    <button class=navButton>
+                        <a href="http://www.grafana.whitney.rip">Grafana</a>
+                    </button>
+                </div>
+                <div class="centerjustified">
+                    <a href="https://www.shanekennerly.com" class="logo">
+                        <img src="resources/picture/pZ_aeriaL.jpg" class="logo">
+                    </a>
+                </div>
+                <div class="rightjustified">
+                    <button class=navButton>
+                        <a href="http://www.covid.whitney.rip">Covid Tracker</a>
+                    </button>
+                    <button class=navButton>
+                        <a href="http://www.node.whitney.rip">Node</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <h1 class="center" id="whitney">Whitney.rip</h1>
+            <h2 class="center" id="poweredBy">Powered by PWS &trade;</h2>
+            </br>
+            </br>
+            <h4 class="center">
+                <a id="tagline" href="http://www.whitney.rip"> Performance Lives Here.</a>
+            </h4>
+            </br>
+            <div class="center">
+                <input type="button" value="Reroll MOTD" onclick="randomTagline();">
+            </div>
+        </div>
 	</body>
 </html>
