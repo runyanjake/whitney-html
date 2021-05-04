@@ -16,6 +16,18 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Chivo';
+    src: url('fonts/Chivo-Light.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+#body {
+    min-width: 250px;
+}
+
 .center {
     margin: auto;
     display: flex;
@@ -50,6 +62,10 @@
 #tagline {
     color: black;
     text-decoration: none;
+    font-family:'Chivo'; 
+    font-weight:bold; 
+    font-style:normal; 
+    font-size:24px;
 }
 
 #whitney {
