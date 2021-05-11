@@ -1,32 +1,33 @@
 <html>
     <head>
+        <meta charset="UTF-8" />
     	<link href="resources/css/stylesheet.css" rel="stylesheet" type="text/css">
         <script type="text/javascript" src="tagline.js"></script>
         <title>Whitney - Powered by PWS &trade;</title>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  
     </head>
-    <body onload="tagline()" id="body">
+    <body id="body">
         <div class="header"> 
             <div class="center">
                 <div class="leftjustified">
                     <button class=navButton>
-                        <a href="http://www.admin.whitney.rip">Admin</a>
+                        <a href="//www.admin.whitney.rip" class="navButtonLink">Admin</a>
                     </button>
                     <button class=navButton>
-                        <a href="http://www.grafana.whitney.rip">Grafana</a>
+                        <a href="//www.grafana.whitney.rip" class="navButtonLink">Grafana</a>
                     </button>
                 </div>
                 <div class="centerjustified">
-                    <a href="http://www.whitney.rip" class="logo">
+                    <a href="https://www.youtube.com/watch?v=Gra6PGWyrYA" class="logo">
                         <img src="resources/picture/pZ_aeriaL.jpg" class="logo">
                     </a>
                 </div>
                 <div class="rightjustified">
                     <button class=navButton>
-                        <a href="http://www.covid.whitney.rip">Covid Tracker</a>
+                        <a href="//www.covid.whitney.rip" class="navButtonLink">Covid Tracker</a>
                     </button>
                     <button class=navButton>
-                        <a href="http://www.node.whitney.rip">Node</a>
+                        <a href="//www.node.whitney.rip" class="navButtonLink">Node</a>
                     </button>
                 </div>
             </div>
@@ -37,11 +38,11 @@
             </br>
             </br>
             <h4 class="center">
-                <a id="tagline" href="http://www.whitney.rip"> Performance Lives Here.</a>
+                <a id="tagline" href="//www.whitney.rip">Performance Lives Here.</a>
             </h4>
             </br>
             <div class="center">
-                <input type="button" value="Reroll MOTD" onclick="randomTagline();">
+                <button class=newTaglineButton onclick="randomTagline();">New tagline!</button>
             </div>
         </div>
 	</body>
