@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Momcake';
+    src: url('fonts/Momcake-Bold.woff2') format('woff2'),
+        url('fonts/Momcake-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Chivo';
+    src: url('fonts/Chivo-Light.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+#body {
+    min-width: 250px;
+    background: rgb(230, 230, 230);
+}
+
+@media (prefers-color-scheme: dark) {
+    #body {
+        min-width: 250px;
+        background: rgb(100, 100, 100);
+    }
+}
+
+#title {
+	color: rgb(210, 210, 210);
+	font-family: 'Momcake'; 
+	font-weight: bold; 
+	font-style: normal;
+	font-size: 144px;
+
