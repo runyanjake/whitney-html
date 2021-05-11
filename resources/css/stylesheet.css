@@ -82,6 +82,7 @@
 }
 
 .navButtonLink {
+    color: black;
     text-decoration: none;
     font-family:'Aquire';
     font-weight:bold;
