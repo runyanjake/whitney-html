@@ -7,7 +7,8 @@ var taglines = [
     ["SportsCenter NOT Top 10", "https://www.youtube.com/watch?v=KZk1ncguwHo"],
     ["click the logo", ""],
     ["buy me real internet","https://www.paypal.com/donate?business=ZZPAPDLLM3BGN&item_name=Donation&currency_code=USD"],
-    ["support the covid project!","https://www.paypal.com/donate?token=f3eoW8tTdovlcY7ocFQQJvHcZv-lt0Xa3YFZA22YQd4zATfsBb7PmHz_K5AYJuPp01Pz5wzTzRIli_KI"]
+    ["support the covid project!","https://www.paypal.com/donate?token=f3eoW8tTdovlcY7ocFQQJvHcZv-lt0Xa3YFZA22YQd4zATfsBb7PmHz_K5AYJuPp01Pz5wzTzRIli_KI"],
+    ["live on Twitch","https://www.twitch.tv/pz_aerial"]
 ]
 
 var lastTagline = -1
